@@ -12,8 +12,6 @@ import ReplyIcon from '@material-ui/icons/Reply';
 import dayu from "./大鱼.m4a"
 
 
-var i = 0;
-let sum = (a, b) => { return a + b };
 
 
 class App extends React.Component {
@@ -21,8 +19,6 @@ class App extends React.Component {
     super(props);
     this.state = {
       date: new Date(),
-      sums: sum(2, 3),
-      name: "葛文旺",
       todo: "",
       List: [],
       history:[],
